@@ -13,7 +13,11 @@ pip install -r requirements.txt
 ```
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=17YdgpbtvxWvPhRHIkuSwjlp9nFSBKv3M' -O shape_predictor_68_face_landmarks.dat
 ```
-4. Run the script with video file argument
+4. (optional) You can download a video with my face and use it for testing
+```
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=12gbn8y0qt1aIFOw9R8lmVX2LBPCuinJB' -O video.mp4
+```
+5. Run the script with video file argument
 ```
 python ./blink_detection.py --shape-predictor shape_predictor_68_face_landmarks.dat --video -path/to/video
 ```
