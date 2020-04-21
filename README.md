@@ -9,7 +9,7 @@ git clone https://github.com/nWhovian/blink-detection.git
 cd path/to/blink-detection
 pip install -r requirements.txt
 ```
-3. Download the dlib’s pre-trained facial landmark detector and example videos
+3. Download the dlib’s pre-trained facial landmark detector
 ```
 wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=17YdgpbtvxWvPhRHIkuSwjlp9nFSBKv3M' -O shape_predictor_68_face_landmarks.dat
 ```
